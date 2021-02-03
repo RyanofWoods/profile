@@ -74,11 +74,12 @@ color: #fff;
 }
 #profile-info {
   font-size: 18px;
-  margin: 12px 12px 18px 12px;
+  margin: 12px 12px 24px 12px;
 }
 .list-inline{
   list-style: none;
   padding-left: 0;
+  margin-top: 0;
 }
 .list-inline li{
   display: inline-block;
@@ -86,7 +87,7 @@ color: #fff;
 }
 .social-links i {
   color: #3f612d;
-  font-size: 36px;
+  font-size: 48px;
 }
 .social-links i:hover{
   color: #32460a;
