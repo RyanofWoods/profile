@@ -30,25 +30,24 @@ ul {
 
 /* Classes */
 .page-heading {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .img-profile {
   padding: 8px;
   border-radius: 50%;
 }
-.btn-white{
+.btn-green{
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
   padding: 12px;
+  margin-bottom: 12px;
   font-size: 18px;
   text-align: center;
   background-color: #3f612d;
   border-radius: 4px;
+  color: #fff;
 }
-.btn-white {
-color: #fff;
-}
-.btn-white:hover {
+.btn-green:hover {
   background-color: #32460a;
   color: #fff;
 }
@@ -60,7 +59,7 @@ color: #fff;
   margin: 40px auto;
 }
 .card {
-  padding: 20px;
+  padding: 24px;
   margin-bottom: 20px;
   border-radius: 4px;
   text-align: center;
