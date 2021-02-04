@@ -5,7 +5,7 @@
   color:rgb(80, 80, 100);
 }
 body {
-  background-color: #F7F7F7;
+  background-color: #F3EFF5; /* #f7f7f7;*/
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -24,9 +24,6 @@ a {
 a:hover {
   color: #32460a;
 }
-ul {
-  margin: 20px;
-}
 
 /* Classes */
 .page-heading {
@@ -42,15 +39,14 @@ ul {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
   padding: 12px;
-  margin-bottom: 12px;
   font-size: 18px;
   text-align: center;
-  background-color: #3f612d;
+  background-color: #3f7d20;
   border-radius: 4px;
   color: #fff;
 }
 .btn-green:hover {
-  background-color: #32460a;
+  background-color: #72b01d;
   color: #fff;
 }
 .btn-small{
@@ -58,11 +54,11 @@ ul {
 }
 .container {
   width: 750px;
-  margin: 40px auto;
+  margin: 30px auto;
 }
 .card {
   padding: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 4px;
   text-align: center;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
@@ -73,25 +69,37 @@ ul {
 .horiz-center {
   margin: 0 auto;
 }
-#profile-info {
-  font-size: 18px;
+.profile-info {
   margin: 12px 12px 24px 12px;
+}
+h3.profile-info{
+  font-weight: bold;
+  font-size: 18px;
+  margin: 2px 0 4px 0;
+}
+p.profile-info {
+  font-size: 16px;
+  margin: 4px 0 30px 0;
 }
 .list-inline{
   list-style: none;
+  text-align: center;
   padding-left: 0;
-  margin-top: 0;
 }
 .list-inline li{
+  margin: 0 auto;
   display: inline-block;
-  padding: 10px;
+  margin: 8px;
 }
 .social-links i {
-  color: #3f612d;
-  font-size: 48px;
+  color: #3f7d20;
+  font-size: 40px;
 }
 .social-links i:hover{
-  color: #32460a;
+  color: #72b01d;
+}
+#other-links-heading {
+  padding: 8px 0 4px 0;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -111,3 +119,11 @@ ul {
     width: 200px;
   }
 }
+
+/*
+1. light green #3f612d
+1. dark green #32460a
+
+2. light green #72b01d
+2. dark green #3f7d20
+*/
